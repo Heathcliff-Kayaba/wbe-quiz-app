@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(images/quiz-bg.jpg);
+    background-attachment: fixed;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin: 0;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+main {
+    min-height: calc(100vh - 270px - 56px);
+}
+
+.pad {
+    padding: 20px;
+}
+
+.leaderboard td, h1, h3 {
+    color: white;   
+}
+.leaderboard {
+    background-color: rgba(105, 104, 104, 0.404);
+    padding: 20px;
+}
+
+.waw h2  p span {
+    color: white;
+    text-align: center;
+    
+}
+
+.waw {
+    background-color: rgba(105, 104, 104, 0.404);
+    padding: 20px;
+}
+
+.a-hover:hover {
+    text-decoration: none;
+}
